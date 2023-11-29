@@ -1,0 +1,44 @@
+{
+  "tariffs": [
+    {
+      "id": 1,
+      "tariff": "Безлимитный 300",
+      "price": 300,
+      "speed": "до 10 Мбит/сек",
+      "comment": "Объем включенного тарифа не ограничен",
+      "color_header": "#219cab",
+      "color_main": "#2bc1d5",
+      "isHighlighted": false
+    },
+    {
+      "id": 2,
+      "tariff": "Безлимитный 450",
+      "price": 450,
+      "speed": "до 50 Мбит/сек",
+      "comment": "Объем включенного тарифа не ограничен",
+      "color_header": "#1f8972",
+      "color_main": "#26ad8d",
+      "isHighlighted": false
+    },
+    {
+      "id": 3,
+      "tariff": "Безлимитный 550",
+      "price": 550,
+      "speed": "до 100 Мбит/сек",
+      "comment": "Объем включенного тарифа не ограничен",
+      "color_header": "#c3554d",
+      "color_main": "#f4695f",
+      "isHighlighted": true
+    },
+    {
+      "id": 4,
+      "tariff": "Безлимитный 1000",
+      "price": 1000,
+      "speed": "до 200 Мбит/сек",
+      "comment": "Объем включенного тарифа не ограничен",
+      "color_header": "#272f35",
+      "color_main": "#323a44",
+      "isHighlighted": false
+    }
+  ]
+}

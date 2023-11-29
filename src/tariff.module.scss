@@ -1,0 +1,66 @@
+.container {
+  width: 250px;
+  height: 350px;
+  padding-top: 30px;
+  transition: transform 0.3s ease;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px;
+  border: 1px solid;
+}
+.div_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid white;
+}
+.price {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+  position: relative;
+
+  span {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+  }
+}
+.price::before {
+  content: "руб";
+  font-size: 14px;
+  padding-right: 10px;
+  position: absolute;
+  left: -30px;
+}
+
+.speed {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid white;
+}
+.comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #eeeeee;
+  text-align: center;
+  border: 1px solid white;
+  line-height: 2;
+}
+.highlighted {
+  transform: scale(1.1);
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
